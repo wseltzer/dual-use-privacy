@@ -52,5 +52,7 @@ TK: NEEDSREFS and further development
 ## References
 
 IAB SEMI, IAB Workshop on Stack Evolution in a Middlebox Internet (SEMI), https://www.iab.org/activities/workshops/semi/
+
 W3C TAG, Unsanctioned Web Tracking, http://www.w3.org/2001/tag/doc/unsanctioned-tracking/
+
 Zittrain. Jonathan L. Zittrain, “The Generative Internet,” 119 Harv. L. Rev 1974 (2006) 
