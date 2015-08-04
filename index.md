@@ -34,7 +34,7 @@ non-privacy-specific purposes, the less its users stand out as
 "privacy seekers." The use of privacy-specific technologies was used
 as a selector in the NSA's XKeyscore system.[[XKeyscore]] It is
 counterproductive if individuals trying to preserve privacy, whether
-web browsers from advertisers or dissidents from reppressive political
+web browsers from advertisers or dissidents from repressive political
 regimes, stand out from the crowd by virtue of the tools they use.
 
 [[Does layering have any role here? How does it impact that IP
@@ -52,9 +52,24 @@ technologies, change the behavior of existing ones that may have
 unexpected privacy implications, without surprising or harming the
 users who depend on some features of the old stack? Any answer
 involving "notice" must account for the practice rolling software
-updates, where users may barely be aware that their web browser has
-changed.
+updates, where users may barely be aware that software such as their
+Web browser has changed.
 
+Further, research into user "fingerprinting" and the analogy to covert
+channels, as well as statistical analysis of differential privacy
+suggest that nearly any element added to the platform may be used to
+distinguish users or increase the linkability of their activity, and
+thereby reduce privacy.[[TAG]] Even if privacy reviews describe these
+entropy-reducing factors, they may not be able to recommend
+eliminating all potential for privacy reduction; the fix may lie in
+policy as well as technology.
+
+Should we start looking at privacy-affecting changes more like
+security risks? That could mean assessing the threats and mitigations,
+and giving notice to affected users, as well as to developers and
+advocates who can intervene on users' behalf.
+
+[[TK: Need much better guidance to spec developers and users!]]
 
 
 ## Examples: 
@@ -67,7 +82,7 @@ changed.
 
 ## Goals and Principles
 
-* Minimize surprise
+* Minimize surprise to users and developers
 
 * Users and tools shouldn't have to identify themselves as
   "privacy-seeking" or "privacy-protecting"
@@ -103,3 +118,4 @@ https://www.schneier.com/blog/archives/2014/07/nsa_targets_pri.html
 
 Zittrain. Jonathan L. Zittrain, “The Generative Internet,” 119 Harv. L. Rev 1974 (2006) 
 
+https://www.w3.org/TR/html-design-principles/#priority-of-constituencies
