@@ -23,8 +23,26 @@ WebRTC/RTCWeb exposed the internal IP addresses of browser users in
 order to facilitate peer routing of real-time audio and video, some
 users were surprised and dismayed, while others were unfazed. RTC spec
 contributors explained the choice as one of performance and simplicity
-for end-users: their RTC connections should just work. 
-TK: NEEDSREFS and further development
+for end-users: their RTC connections should just work. Users who
+relied on VPNs to keep their local IP addresses private were surprised
+to find that this property no longer held. [[TK: NEEDSREFS and further
+development]]
+
+[[Does layering have any role here? How does it impact that IP
+disclosure is a cross-layer issue? Sometimes, layering helps us to
+avoid these problems. Interfaces between the layers are clearly
+defined, and issues designated to one layer or delegated to
+another. But the app layer could still do or mess up the permissions.]]
+
+
+We don't want to ossify the Internet or Web by picking some subset of
+properties and saying those must be preserved. We can't even say that
+changes are permissible only in new protocols or with new semantics,
+because of the "port 80" problem, that new ports and protocols don't
+get through firewalls and middleboxes.
+
+
+
 
 ## Examples: 
 
@@ -41,13 +59,21 @@ TK: NEEDSREFS and further development
 * Users and tools shouldn't have to identify themselves as
   "privacy-seeking" or "privacy-protecting"
 
-* Collateral privacy should be protected 
+* Protect collateral privacy
+
+* Preserve generativity
 
 ## Questions
 
 * When can we infer intent, either to get or defeat privacy-protective
   measures? How do calls for regulatory action mesh with implicit
   privacy protection?
+
+* Is a "flag day"/protocol change the only time we can make
+  privacy-breaking changes? 
+
+* Whose responsibility is it to watch for the impacts of protocol changes on
+  privacy?
 
 ## References
 
