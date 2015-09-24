@@ -69,6 +69,13 @@ security risks? That could mean assessing the threats and mitigations,
 and giving notice to affected users, as well as to developers and
 advocates who can intervene on users' behalf.
 
+Emerging privacy model of the web (with thanks to Nick Doty):
+origin-bound storage; 
+permissions
+per-origin isolation
+...
+meeting users' expectations, building out the details of this model. 
+
 [[TK: Need much better guidance to spec developers and users!]]
 
 
