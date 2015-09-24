@@ -73,6 +73,7 @@ Emerging privacy model of the web (with thanks to Nick Doty):
 origin-bound storage; 
 permissions
 per-origin isolation
+layer boundaries
 ...
 meeting users' expectations, building out the details of this model. 
 
